@@ -135,7 +135,9 @@ footer{
 }
 /*Jumbotron*/
 #bg_blue{
-    background-color: blue;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    min-height: 650px;
 }
 #first_pinksection{
     background-color: #ee82ee;
