@@ -38,7 +38,7 @@ footer{
 .smallsquare_sidebar{
     background-color: #daa520;
     min-height: 20px;
-    width: 150px;
+    width: 350px;
     border: dotted black 1px;
     padding-top: 5px;
     padding-left: 10px;
@@ -101,7 +101,7 @@ footer{
 #largesquare_sidebar{
     background-color: #daa520;
     min-height: 50px;
-    width: 450px;
+    width: 650px;
     border: dotted black 1px;
 }
 /*Jumbotron*/
