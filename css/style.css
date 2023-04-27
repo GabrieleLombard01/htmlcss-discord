@@ -99,7 +99,7 @@ footer{
     min-height: 550px;
 }
 .greybg{
-    background-color: #d3d3d3;
+    background-color: #e5e5e5;
     min-height: 550px;
 }
 .lightblue_section{
@@ -132,6 +132,16 @@ footer{
     width: 620px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.wave{
+    display: block;
+    background-image: url("../img/wave.svg");
+    min-height: 150px;
+    opacity: 0.1;
+}
+
+.rotatewave{
+    rotate: 0.5turn;
 }
 .lightgreen_section{
     background-color: #20b2aa;
