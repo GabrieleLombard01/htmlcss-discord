@@ -1,0 +1,136 @@
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Custom properties*/
+
+/*Generics*/
+ul{
+    text-align: center;
+    word-spacing: 15px;
+    padding-top: 5px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+hr{
+    color: #daa520;
+    background-color: #daa520;
+}
+footer{
+    background-color: #23272a;
+    padding-bottom: 10px;
+}
+/*Utilties*/
+.sidebar{
+    background-color: #add8e6;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+.smallsquare_sidebar{
+    background-color: #daa520;
+    min-height: 20px;
+    width: 150px;
+    border: dotted black 1px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.conteiner{
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.whitebg{
+    background-color: white;
+}
+.greybg{
+    background-color: #d3d3d3;
+}
+.lightblue_section{
+    background-color: #1e90ff;
+    min-height: 250px;
+    width: 350px;
+    border: dotted black 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lightpink_section{
+    background-color: #ffc0cb;
+    min-height: 250px;
+    width: 200px;
+    border: dotted black 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lightgreen_section{
+    background-color: #20b2aa;
+    width: 92px;
+    min-height: 250px;
+    border: dotted black 1px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.footer_row{
+    background-color: #7fffd4;
+    margin: 0 auto;
+    min-height: 40px;
+    width: 550px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.button_foot{
+    background-color: #ffb6c1;
+    min-height: 20px;
+    width: 60px;
+    border: dotted black 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*header*/
+#largesquare_sidebar{
+    background-color: #daa520;
+    min-height: 50px;
+    width: 450px;
+    border: dotted black 1px;
+}
+/*Jumbotron*/
+#bg_blue{
+    background-color: blue;
+}
+#first_pinksection{
+    background-color: #ee82ee;
+    min-height: 200px;
+    width: 480px;
+    border: dotted black 1px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+/*Sections*/
+#green_section{
+    background-color: #228b22;
+    min-height: 400px;
+    width: 550px;
+    border: dotted black 1px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+/*Footer*/
+#red_section{
+    background-color: #f08080;
+    width: 183px;
+    min-height: 250px;
+    border: dotted black 1px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
