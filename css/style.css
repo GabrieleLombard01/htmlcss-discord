@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
 /*Custom properties*/
 
 /*Generics*/
@@ -20,6 +22,14 @@ ul{
 li{
     list-style: none;
     text-decoration: none;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+p{
+    font-size: 22px;
+    font-weight: bold;
 }
 hr{
     color: #daa520;
@@ -37,16 +47,15 @@ footer{
     padding-bottom: 15px;
     display: flex;
     justify-content: center;
-
+    
 }
 .side_button{
     text-align: center;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: white;
-
+    
 }
 .smallsquare_sidebar{
     min-height: 20px;
@@ -129,7 +138,6 @@ footer{
     margin: 0 auto;
     text-decoration: none;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #23272a;
 }
@@ -140,12 +148,17 @@ footer{
     min-height: 650px;
 }
 #first_pinksection{
-    background-color: #ee82ee;
-    min-height: 200px;
-    width: 480px;
+    min-height: 250px;
+    width: 770px;
     border: dotted black 1px;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 20px; 
+    text-align: center;
+}
+#title_text{
+    color: white;
+    padding-top: 20px;
+    
 }
 /*Sections*/
 #green_section{
