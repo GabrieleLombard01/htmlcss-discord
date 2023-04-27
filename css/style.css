@@ -72,6 +72,22 @@ footer{
     display: flex;
     justify-content: center;
 }
+.title_buttons{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+.title_button{
+    background-color: white;
+    width: 100px;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #23272a;
+}
 .whitebg{
     background-color: white;
 }
@@ -150,7 +166,6 @@ footer{
 #first_pinksection{
     min-height: 250px;
     width: 770px;
-    border: dotted black 1px;
     margin-top: 100px;
     margin-bottom: 20px; 
     text-align: center;
@@ -158,7 +173,10 @@ footer{
 #title_text{
     color: white;
     padding-top: 20px;
-    
+}
+#button_blkstyle{
+    background-color: #23272a;
+    color: white;
 }
 /*Sections*/
 #green_section{
