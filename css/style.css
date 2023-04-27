@@ -68,7 +68,6 @@ footer{
     font-size: 18px;
     font-weight: bold;
     color: white;
-    
 }
 .smallsquare_sidebar{
     min-height: 20px;
@@ -85,6 +84,13 @@ footer{
     display: flex;
     justify-content: center;
     column-gap: 200px;
+}
+.conteiner2{
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
 }
 .title_buttons{
     display: flex;
