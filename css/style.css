@@ -40,6 +40,9 @@ h3{
     background-size: contain;
     background-position: center;
 }
+h4{
+    color: #8ea1e1;
+}
 p{
     font-size: 22px;
     font-weight: bold;
@@ -89,6 +92,8 @@ footer{
     margin: 0 auto;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color: #23272a;
+    border-bottom: solid #8ea1e1 1px;
     display: flex;
     justify-content: center;
 }
@@ -156,12 +161,19 @@ footer{
     rotate: 0.5turn;
 }
 .lightgreen_section{
-    background-color: #20b2aa;
-    width: 92px;
+    background-color: #23272a;
+    width: 150px;
     min-height: 250px;
-    border: dotted black 1px;
     margin-top: 20px;
     margin-bottom: 20px; 
+    margin-right: 50px;
+    line-height: 35px;
+}
+.white_link{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding-left: 10px;
 }
 .footer_row{
     background-color: #7fffd4;
@@ -171,6 +183,10 @@ footer{
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
+}
+.foot_title{
+    padding-left: 10px;
+
 }
 .button_foot{
     background-color: #ffb6c1;
@@ -266,10 +282,24 @@ footer{
 }
 /*Footer*/
 #red_section{
-    background-color: #f08080;
     width: 383px;
     min-height: 250px;
-    border: dotted black 1px;
     margin-top: 20px;
     margin-bottom: 20px; 
+    color: white;
+}
+#foot_size{
+    font-size: 30px;
+}
+#size_flag{
+    margin-top: 30px;
+}
+#foot_lang{
+    display: inline;
+    font-size: 20px;
+    padding-left: 5px;
+}
+#social_foot{
+    margin-top: 20px;
+    word-spacing: 18px;
 }
