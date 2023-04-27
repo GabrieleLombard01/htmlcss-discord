@@ -33,11 +33,12 @@ h2{
     color: #1c1b29;
 }
 h3{
-    padding-top: 30px;
     padding-bottom: 60px;
     font-size: 30px;
     font-weight: bold; 
     color: #1c1b29;
+    background-size: contain;
+    background-position: center;
 }
 p{
     font-size: 22px;
@@ -235,9 +236,8 @@ footer{
     padding-right: 70px;
 }
 #start_adventure{
-    background-image: url("../img/stars.svg");
+    display: block;
     background-color: #e5e5e5;
-    background-size: 700px;
     padding-bottom: 70px;
     text-align: center;
     margin: 0 auto;
@@ -251,8 +251,12 @@ footer{
     font-weight: bold;
     color: rgb(0, 0, 0);
     padding: 20px;
-    background-color: #534cb6;
+    background-color: #8ea1e1;
+    color: white;
     border-radius: 50px;
+}
+#background_prefooter{
+    background-color: #e5e5e5;
 }
 /*Footer*/
 #red_section{
